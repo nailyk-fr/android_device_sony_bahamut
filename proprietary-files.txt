@@ -9,12 +9,12 @@ system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
 # CAMERA_APP OK
--product/app/CameraAddonPermission-release/CameraAddonPermission-release.apk
--product/app/CameraCommonPermission-release/CameraCommonPermission-release.apk
--product/app/CameraExtensionPermission-release/CameraExtensionPermission-release.apk
--product/app/ImageProcessorPermission-release/ImageProcessorPermission-release.apk
+-product/app/CameraAddonPermission/CameraAddonPermission.apk
+-product/app/CameraCommonPermission/CameraCommonPermission.apk
+-product/app/CameraExtensionPermission/CameraExtensionPermission.apk
+-product/app/ImageProcessorPermission/ImageProcessorPermission.apk
+etc/permissions/privapp-permissions-semccamera.xml
 product/etc/permissions/com.sonymobile.camera.addon.xml
-product/etc/permissions/com.sonymobile.imageprocessor.xml
 product/framework/com.sonymobile.camera.addon_impl.jar
 product/framework/com.sonymobile.imageprocessor.bypasscamera_impl.jar
 lib/libimageprocessorjni.so
