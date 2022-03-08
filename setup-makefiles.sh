@@ -47,5 +47,7 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
 include \$(BUILD_PREBUILT)
 
+EOF
+
 # Finish
 write_footers
