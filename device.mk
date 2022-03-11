@@ -122,6 +122,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libhidltransport \
     libhwbinder
+    android.hidl.manager@1.0_system
 
 # Input
 PRODUCT_COPY_FILES += \

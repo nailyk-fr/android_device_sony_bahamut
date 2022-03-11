@@ -25,7 +25,7 @@ lib64/libimageprocessorjni.so
 # CAMERA OK
 bin/cacaoserver
 etc/init/cacaoserver.rc
-lib/libcacao_client.so
+lib/lib-camshim.so
 lib/libcacao_pal.so
 lib/libcacao_process_ctrl_gateway.so
 lib/libcacao_service.so
@@ -36,6 +36,7 @@ lib/vendor.somc.hardware.camera.cacao@3.1.so
 lib/vendor.somc.hardware.camera.cacao@3.2.so
 lib/vendor.somc.hardware.camera.device@1.0.so
 lib/vendor.somc.hardware.camera.provider@1.0.so
+lib64/lib-camshim.so
 lib64/libcacao_client.so
 lib64/libcacao_pal.so
 
