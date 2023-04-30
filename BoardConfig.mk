@@ -1,5 +1,5 @@
 
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -113,8 +113,6 @@ USE_CUSTOM_AUDIO_POLICY := 1
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
-TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
-TARGET_USE_QTI_BT_STACK := true
 
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
@@ -141,9 +139,6 @@ TARGET_ENABLE_MEDIADRM_64 := true
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
-
-# HIDL
-DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
