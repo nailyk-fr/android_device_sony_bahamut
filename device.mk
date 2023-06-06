@@ -213,3 +213,23 @@ PRODUCT_BOOT_JARS += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-wfd.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-wfd.xml
+
+
+
+## microg
+PRODUCT_PACKAGES += \
+       additional_repos.xml \
+       IchnaeaNlpBackend \
+       privapp-permissions-com.android.vending.xml \
+       default-permissions-com.android.vending.xml \
+       FakeStore \
+       privapp-permissions-com.google.android.gms.xml \
+       default-permissions-com.google.android.gms.xml \
+       sysconfig-com.google.android.gms.xml \
+       GmsCore \
+       NominatimGeocoderBackend \
+       privapp-permissions-org.fdroid.fdroid.privileged.xml \
+       FDroidPrivilegedExtension \
+       FDroid \
+       GsfProxy
+
